@@ -1,0 +1,167 @@
+.main {
+    height: 1080px;
+    padding: 80px 80px;
+    box-sizing: inherit;
+
+}
+.top {
+    width: 100%;
+    height: 5%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.block_logo{
+    order: 0;
+    position: relative;
+}
+.top_logo{
+    position: absolute;
+    height: 100%;
+}
+.block_navbar{
+    order: 0;
+}
+.block_buy{
+    order: 0;
+}
+.SHOW_box{
+    display: none;
+}
+.top ul {
+    list-style-type: none;
+}
+
+.top_main_l {
+    height: 100%;
+    background-color: seashell;
+    display: flex;
+    align-items: center;
+   
+}
+
+.top_main_R {
+    height: 100%;
+    background-color: darksalmon;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    width: 100%;
+    height: 30%;
+    background-color: darkseagreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1_l {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1_R {
+    width: 50%;
+    background-color: white;
+    background-image: url(/img/SS.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+
+.box2 {
+    width: 100%;
+    height: 20%;
+}
+
+.box3 {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px  10px ;
+}
+
+.down {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(228, 227, 227);
+    padding: 150px 50px;
+}
+
+.box3_typ0 {
+    width: 400px;
+    padding: 0px 0px;
+}
+
+.box3_typ1 {
+    background-color: rgb(186, 186, 199);
+}
+.box3_typ2 {
+    background-color: rgb(186, 186, 199);
+}
+.box3_typ3 {
+    background-color: rgb(186, 186, 199);
+}
+.box3_typ4 {
+    background-color: rgb(186, 186, 199);
+}
+.type {
+    width: 100%;
+    height: 15%;
+    background-color: gray;
+}
+li {
+    padding: 0px 15px;
+}
+.picbox{
+    height: 200px;
+    padding: 10px 10px;
+}
+.textbox {
+    height: 105px;
+    max-height: 120px;
+    line-height:30px;
+    background-color: white;
+    padding: 11px 8px;
+}
+.textbox_1 {
+    height: 50px;
+    font: fantasy;
+    color: blue;
+    
+}
+.picbox2{
+    width: 50%;
+    height: 300px;
+    background-image: url(/img/PC.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.textbox2 {
+    width: 50%;
+    height: 300px;
+    line-height: 30px;
+    
+}
+.box-4{
+    font-size: 15px;
+    font-family: 'Segoe UI',SegoeUI,'Microsoft JhengHei',微軟正黑體,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+    padding-top: 48px;
+}
